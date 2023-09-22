@@ -1,12 +1,13 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import { Counter } from '../components/Counter';
+import { Metronome } from '../components/Metronome';
 ---
 
-<Layout title="Welcome to Astro.">
+<Layout title="Metronome" description="A simple metronome app featuring configurable tempo, time signature, sounds, along with a block editor to create loops of changing time signatures for more complex timing.">
 	<main>
-		<h1>Welcome to <span class="text-gradient">Astro.</span></h1>
-		<Counter client:visible />
+		<h1><span class="text-gradient">Metronome</span></h1>
+		<div id="app" />
+		<Metronome client:visible />
 	</main>
 </Layout>
 
