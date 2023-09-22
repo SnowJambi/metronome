@@ -30,4 +30,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: SnowJambi/deploy-pages@e926a7ec336f580c14a7d6d6738189e19ea6d9a3
+        uses: SnowJambi/deploy-pages@44cb5fba2099d75d672928fdd0b4903e97588357
