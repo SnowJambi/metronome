@@ -17,7 +17,7 @@ jobs:
       - name: Checkout your repository using git
         uses: actions/checkout@v3
       - name: Install, build, and upload your site
-        uses: SnowJambi/deploy-pages@e926a7e
+        uses: SnowJambi/deploy-pages@e926a7ec336f580c14a7d6d6738189e19ea6d9a3
         with:
           node-version: 20
 
